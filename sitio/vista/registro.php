@@ -28,7 +28,7 @@
         
             <!-- Login Form -->
             <form id="login-form" class="form" action="../scripts_php/registrar_usuario.php" method="post">
-                            <h3 class="text-center text-info">Login</h3>
+                            <h3 class="text-center text-info">Registro</h3>
                             <div class="form-group">
                                 <label for="username" class="text-info">Username:</label><br>
                                 <input type="text" name="caja_usuario" id="username" class="form-control">
