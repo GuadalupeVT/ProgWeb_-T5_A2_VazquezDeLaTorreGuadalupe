@@ -28,11 +28,9 @@
     <?php
        require_once('header.html');
 
-       echo "<p style=\"text-align:center; color:red;\";> REGISTRO..........</p>"
-
     ?>
-    <h3 style="background-color:#29C053 text-align:center;
-    padding:15px; margin-bottom:15px; border:0px;">AGREGAR ALUMNO</h3>
+    <h3 style="background-color:blue; text-align:center;
+    padding:15px; margin-bottom:15px; border:0px; color:white;">AGREGAR ALUMNO</h3>
     <form method="POST" action="../scripts_php/procesar_altas.php">
       <div class="form-row">
         <div class="form-group col-md-6">

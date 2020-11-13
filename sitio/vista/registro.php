@@ -31,11 +31,11 @@
                             <h3 class="text-center text-info">Registro</h3>
                             <div class="form-group">
                                 <label for="username" class="text-info">Username:</label><br>
-                                <input type="text" name="caja_usuario" id="username" class="form-control">
+                                <input type="text" name="caja_usuario" id="username" class="form-control" require>
                             </div>
                             <div class="form-group">
                                 <label for="password" class="text-info">Password:</label><br>
-                                <input type="text" name="caja_password" id="password" class="form-control">
+                                <input type="text" name="caja_password" id="password" class="form-control" require>
                             </div>
                             <div class="form-group">
                                 <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
