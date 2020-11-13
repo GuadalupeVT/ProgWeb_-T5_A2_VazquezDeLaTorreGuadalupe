@@ -36,5 +36,20 @@
         }
     }//eliminar
 
+
+    //------------ MODIFICAR ------------
+    public function modificarAlumno($nc, $n, $pa, $sa, $e, $s, $c){
+        $sql= "UPDATE ALUMNOS SET nombre='$n',primerAp='$pa',segundoAp='$sa',edad=$e,semestre=$s,carrera='$c' WHERE numControl='$nc';";
+        if(mysqli_query($this->conexion->getConexion(),$sql)  ){
+            //echo("<script> alert('Agregado con Exito')</script>");
+            header('location:../vista/formulario_cambios.php');
+            //echo $sql;
+        }else{
+            echo "¿SERA MUY TARDE PARA CAMBIAR DE CARRERA??? =(";
+            echo mysqli_error($this->conexion->getConexion());
+            echo $sql;
+        }
+    }//modificar
+
   }
 ?>
