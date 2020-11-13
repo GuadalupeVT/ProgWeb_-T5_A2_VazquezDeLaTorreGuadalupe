@@ -19,7 +19,7 @@
         
             <div id="formContent">
             <!-- Tabs Titles -->
-            <h2 class="active"> Sign In </h2>
+            <h2 class="active"> Iniciar </h2>
         
             <!-- Icon -->
             <div class="fadeIn first">
@@ -42,7 +42,7 @@
                                 <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
                             </div>
                             <div id="register-link" >
-                                <a href="" class="text-info">Register here</a>
+                                <a href="registro.php" class="text-info">Register here</a>
                             </div>
                         </form>
         

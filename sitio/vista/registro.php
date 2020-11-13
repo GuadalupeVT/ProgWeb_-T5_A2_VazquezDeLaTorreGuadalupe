@@ -19,11 +19,11 @@
         
             <div id="formContent">
             <!-- Tabs Titles -->
-            <h2 class="active"> Sign In </h2>
+            <h2 class="active"> Registrarse </h2>
         
             <!-- Icon -->
             <div class="fadeIn first">
-                <img src="../../imagenes/login.png" id="icon" alt="User Icon" />
+                <img src="../../imagenes/registro.png" id="icon" alt="User Icon" />
             </div>
         
             <!-- Login Form -->
@@ -41,9 +41,7 @@
                                 <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
                                 <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
                             </div>
-                            <div id="register-link" >
-                                <a href="" class="text-info">Register here</a>
-                            </div>
+                           
                         </form>
         
             </div>
